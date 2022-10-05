@@ -71,6 +71,15 @@ namespace Payments
 
         }
     }
+
+    //Sobrescrita
+    class Movel { 
+        public virtual void Preco(){ /*corpo do método*/ }
+         }
+    class Cama : Movel { 
+        public override void Preco(){ /*corpo do método*/ }
+         }
+
     class PaymenTBoleto : Payment
     {
         void Teste()
