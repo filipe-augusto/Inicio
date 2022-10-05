@@ -48,18 +48,23 @@ namespace Payments
             }
         } 
         //PROPG
-        public int MyProperty { get; private set; }
+        public int qualquer { get; private set; }
         //PROP FULL
         private int idade;
         public int Idade
         {
             get { return idade; }
             set { 
-                
                 idade = value+10; }
         }
-        
-        protected void Pagar() { }
+        //METODOS
+        //nome do metodo é pagar
+        //a assinatura do metodo é protected void Pagar(string numero) 
+        protected  virtual void Pagar(string numero) { }
+        //sobrecarga - Quando cria metodos com assinaturas diferentes e nomes iguais 
+        protected void Pagar(string numero, DateTime vencimento, bool pagarAposVencimento = false) {
+
+         }
 
         private void ConsultarSaldoDoCartao()
         {
@@ -70,8 +75,12 @@ namespace Payments
     {
         void Teste()
         {
-            base.Pagar();
+            base.Pagar("1");
         }
+    }
+
+    class PaymentCreditCard : Payment{
+            //public override void Pagar( string numero){}
     }
     struct Customer
     {
