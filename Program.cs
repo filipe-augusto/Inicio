@@ -13,8 +13,15 @@ namespace Payments
             Payment P = new Payment();
             P.Nome = "Filipe. Augusto. Santos.";
             P.Idade = 20;
-            Console.WriteLine( "NOME " + P.Nome+ " Idade: "+P.Idade);
+          //  Console.WriteLine( "NOME " + P.Nome+ " Idade: "+P.Idade);
+            Movel m = new Movel(1);
+            Cama c = new Cama(5);
+            c.Preco();
+            //m.Preco();
             Console.ReadLine();
+           // ----------------------
+          // var pagamento = new  PaymentCreditCard();
+          // pagamento
         }
     }
 
@@ -65,7 +72,6 @@ namespace Payments
         protected void Pagar(string numero, DateTime vencimento, bool pagarAposVencimento = false) {
 
          }
-
         private void ConsultarSaldoDoCartao()
         {
 
@@ -74,10 +80,25 @@ namespace Payments
 
     //Sobrescrita
     class Movel { 
-        public virtual void Preco(){ /*corpo do método*/ }
+            //CONSTRUTOR
+            public DateTime  CriacaoDoMovel { get; set; }
+            public int Tamanho { get; set; }
+        public Movel(int tamanho)
+        {
+            Tamanho = tamanho;
+            CriacaoDoMovel = DateTime.Now;
+            Console.WriteLine("Iniciando o movel: "+ CriacaoDoMovel + "tamanho: " + Tamanho);
+        }
+        public virtual void Preco(){ Console.WriteLine("METODO PAI - MOVEL"); }
          }
-    class Cama : Movel { 
-        public override void Preco(){ /*corpo do método*/ }
+    class Cama : Movel {
+        public Cama(int tamanho) : base(tamanho)
+        {
+        }
+
+        public override void Preco(){ 
+            base.Preco();//chamando metodo do pai
+            Console.WriteLine("METODO FILHO - CAMA");}
          }
 
     class PaymenTBoleto : Payment
