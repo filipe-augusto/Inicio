@@ -1,0 +1,15 @@
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\bin\Debug\net6.0\Inicio.exe
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\bin\Debug\net6.0\Inicio.deps.json
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\bin\Debug\net6.0\Inicio.runtimeconfig.json
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\bin\Debug\net6.0\Inicio.dll
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\bin\Debug\net6.0\Inicio.pdb
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\Inicio.csproj.AssemblyReference.cache
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\Inicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\Inicio.AssemblyInfoInputs.cache
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\Inicio.AssemblyInfo.cs
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\Inicio.csproj.CoreCompileInputs.cache
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\Inicio.dll
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\refint\Inicio.dll
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\Inicio.pdb
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\Inicio.genruntimeconfig.cache
+C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\ref\Inicio.dll
