@@ -13,3 +13,18 @@ C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\refint\Inic
 C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\Inicio.pdb
 C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\Inicio.genruntimeconfig.cache
 C:\Users\fchaves\Documents\Revisando-Conceitos-.net\obj\Debug\net6.0\ref\Inicio.dll
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\bin\Debug\net6.0\Inicio.exe
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\bin\Debug\net6.0\Inicio.deps.json
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\bin\Debug\net6.0\Inicio.runtimeconfig.json
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\bin\Debug\net6.0\Inicio.dll
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\bin\Debug\net6.0\ref\Inicio.dll
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\bin\Debug\net6.0\Inicio.pdb
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\obj\Debug\net6.0\Inicio.csproj.AssemblyReference.cache
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\obj\Debug\net6.0\Inicio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\obj\Debug\net6.0\Inicio.AssemblyInfoInputs.cache
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\obj\Debug\net6.0\Inicio.AssemblyInfo.cs
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\obj\Debug\net6.0\Inicio.csproj.CoreCompileInputs.cache
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\obj\Debug\net6.0\Inicio.dll
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\obj\Debug\net6.0\ref\Inicio.dll
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\obj\Debug\net6.0\Inicio.pdb
+C:\Users\faugu\OneDrive\Área de Trabalho\PROGRAMAÇÃO\C#\ORIENTAÇÃO A OBJETOS\Inicio\obj\Debug\net6.0\Inicio.genruntimeconfig.cache
