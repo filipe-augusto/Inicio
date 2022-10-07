@@ -17,21 +17,43 @@ namespace Payments
                        Movel m = new Movel(1);
                        Cama c = new Cama(5);
                        c.Preco(); */
+            #region classe abstrata
+            //nao pode ser estanciada
+            // var a = new classeEstatica();
+            classeEstatica.propriedade1 = 1;
 
-            //dispose e using
+
+
+
+
+            #endregion
+
+            #region dispose e using
+            //
             //  var pessoa = new Pessoa();
             //  pessoa.Dispose();
 
-            using (var pessoa1 = new Pessoa())
-            {
-                System.Console.WriteLine("processando o pagamento");
-            }
+            /*  using (var pessoa1 = new Pessoa())
+             {
+                 System.Console.WriteLine("processando o pagamento");
+             } */
+            #endregion
             //m.Preco();
             Console.ReadLine();
             // ----------------------
             // var pagamento = new  PaymentCreditCard();
             // pagamento
         }
+    }
+
+
+    static class classeEstatica
+    {
+        //não é possivel estanciar
+
+        //propriedades precisam ser estaticas
+        public static int propriedade1 { get; set; }
+
     }
 
     class Pessoa : IDisposable
