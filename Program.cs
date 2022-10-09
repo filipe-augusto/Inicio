@@ -43,7 +43,18 @@ namespace Payments
             // ----------------------
             // var pagamento = new  PaymentCreditCard();
             // pagamento
+
+            #region partial
+            Payment a = new Payment();
+            a.PropriedadeB = 1;
+            a.PropriedadeA = 2;
+            #endregion
         }
+    }
+
+    public sealed class classeSelada
+    {
+        //inibidir a possiblidade de alguem criar uma herança da classe
     }
 
 
@@ -69,7 +80,7 @@ namespace Payments
         }
     }
 
-    class Payment
+    class Payments
     {
         public DateTime vencimento { get; set; }
 
@@ -155,7 +166,7 @@ namespace Payments
         }
     }
 
-    class PaymenTBoleto : Payment
+    class PaymenTBoleto : Payments
     {
         void Teste()
         {
