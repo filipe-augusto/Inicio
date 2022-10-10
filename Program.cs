@@ -25,6 +25,15 @@ namespace Payments
         }
     }
 
+    class Pagamento {
+            //Garbage collector
+            public Pagamento(){
+                Console.WriteLine("Iniciando o pagamento");
+            }
+        }
+
+
+    #region construtor, metodos e propriedades
     class Payment
     {
         public DateTime vencimento { get; set; }
@@ -77,7 +86,6 @@ namespace Payments
 
         }
     }
-
     //Sobrescrita
     class Movel { 
             //CONSTRUTOR
@@ -88,7 +96,9 @@ namespace Payments
             Tamanho = tamanho;
             CriacaoDoMovel = DateTime.Now;
             Console.WriteLine("Iniciando o movel: "+ CriacaoDoMovel + "tamanho: " + Tamanho);
+
         }
+         
         public virtual void Preco(){ Console.WriteLine("METODO PAI - MOVEL"); }
          }
     class Cama : Movel {
@@ -100,7 +110,6 @@ namespace Payments
             base.Preco();//chamando metodo do pai
             Console.WriteLine("METODO FILHO - CAMA");}
          }
-
     class PaymenTBoleto : Payment
     {
         void Teste()
@@ -108,7 +117,6 @@ namespace Payments
             base.Pagar("1");
         }
     }
-
     class PaymentCreditCard : Payment{
             //public override void Pagar( string numero){}
     }
@@ -116,4 +124,21 @@ namespace Payments
     {
         public string Name;
     }
+    #endregion
+
+    #region Fuzilamento
+    public class Fuzilamento : IFuzilamento
+    {
+        public int Quantidade { get ; set; }
+
+        public void Atirar(string alvo)
+        {
+            
+        }
+    }
+    public interface IFuzilamento{
+    public int Quantidade { get; set; }
+  public  void Atirar(string alvo);
+}
+#endregion
 }
