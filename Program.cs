@@ -126,7 +126,7 @@ namespace Payments
     }
     #endregion
 
-    #region Fuzilamento
+    
     public class Fuzilamento : IFuzilamento
     {
         public int Quantidade { get ; set; }
@@ -138,7 +138,7 @@ namespace Payments
     }
     public interface IFuzilamento{
     public int Quantidade { get; set; }
-  public  void Atirar(string alvo);
+    public  void Atirar(string alvo);
 }
-#endregion
+
 }
