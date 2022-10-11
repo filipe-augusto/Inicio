@@ -17,12 +17,25 @@ namespace Payments
               Movel m = new Movel(1);
               Cama c = new Cama(5);
               c.Preco(); */
-            var car = new Polo();
-            car.Ano = 2022;
-            car.Velocidade = 200.5m;
-            car.Nome = "polo preto 2012";
-            car.correr();
+            #region abstrata e subscrita
+            /*   var car = new Polo();
+              car.Ano = 2022;
+              car.Velocidade = 200.5m;
+              car.Nome = "polo preto 2012";
+              car.correr(); */
+            #endregion
             System.Console.WriteLine();
+            #region  upcast
+            /*  var pessoa = new Pessoa();
+             pessoa = new PessoaFisica();
+             pessoa = new PessoaJuridica(); */
+
+            #endregion
+            #region downcast
+            /*     var pessoa1 = new Pessoa();
+                var pessoaFisica = new PessoaFisica();
+                pessoaFisica = (PessoaFisica)pessoa1; */
+            #endregion
             //m.Preco();
             Console.ReadLine();
             // ----------------------
@@ -180,5 +193,21 @@ namespace Payments
         }
     }
     #endregion
+    #region upcast
 
+    public class Pessoa
+    {
+
+    }
+
+    public class PessoaFisica : Pessoa
+    {
+        public string CPF { get; set; }
+    }
+    public class PessoaJuridica : Pessoa
+    {
+        public string CNPJ { get; set; }
+    }
+
+    #endregion
 }
