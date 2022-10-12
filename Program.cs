@@ -8,7 +8,7 @@ namespace Payments
     {
         static void Main(string[] args)
         {
-            System.Console.Clear();
+            Console.Clear();
             #region CLASSES ABSTRATAS
             /*   
              inciandoAparelho a1 = new inciandoAparelho();
@@ -21,8 +21,8 @@ namespace Payments
             //  downcast_Upcast.iniciando();
             #endregion
             #region  Comprando objetos
-            DowncastUpcastComparandoObjetos a = new DowncastUpcastComparandoObjetos();
-            a.iniciando();
+            /*   DowncastUpcastComparandoObjetos a = new DowncastUpcastComparandoObjetos();
+              a.iniciando(); */
             #endregion
             //
 
