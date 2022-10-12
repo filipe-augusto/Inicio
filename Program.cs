@@ -1,5 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System;
+using Payments;
 
 namespace Payments
 {
@@ -7,6 +8,25 @@ namespace Payments
     {
         static void Main(string[] args)
         {
+            System.Console.Clear();
+            #region CLASSES ABSTRATAS
+            /*   
+             inciandoAparelho a1 = new inciandoAparelho();
+             inciandoAparelho.iniciando(); 
+             */
+            #endregion
+            #region UPCAST E DOWNCAST
+            //  
+            //  DowncastUpcast downcast_Upcast = new DowncastUpcast();
+            //  downcast_Upcast.iniciando();
+            #endregion
+            #region  Comprando objetos
+            DowncastUpcastComparandoObjetos a = new DowncastUpcastComparandoObjetos();
+            a.iniciando();
+            #endregion
+            //
+
+
             //var customer = new Customer();
             // customer.Name = "Teste";
             /*   Console.WriteLine("--------abc--------");
@@ -24,18 +44,8 @@ namespace Payments
               car.Nome = "polo preto 2012";
               car.correr(); */
             #endregion
-            System.Console.WriteLine();
-            #region  upcast
-            /*  var pessoa = new Pessoa();
-             pessoa = new PessoaFisica();
-             pessoa = new PessoaJuridica(); */
+            // System.Console.WriteLine();
 
-            #endregion
-            #region downcast
-            /*     var pessoa1 = new Pessoa();
-                var pessoaFisica = new PessoaFisica();
-                pessoaFisica = (PessoaFisica)pessoa1; */
-            #endregion
             //m.Preco();
             Console.ReadLine();
             // ----------------------
@@ -155,20 +165,7 @@ namespace Payments
         public string Name;
     }
     #endregion
-    public class Fuzilamento : IFuzilamento
-    {
-        public int Quantidade { get; set; }
 
-        public void Atirar(string alvo)
-        {
-
-        }
-    }
-    public interface IFuzilamento
-    {
-        public int Quantidade { get; set; }
-        public void Atirar(string alvo);
-    }
 
 
     #region classe Abstrata e sobrescrita
@@ -193,21 +190,5 @@ namespace Payments
         }
     }
     #endregion
-    #region upcast
 
-    public class Pessoa
-    {
-
-    }
-
-    public class PessoaFisica : Pessoa
-    {
-        public string CPF { get; set; }
-    }
-    public class PessoaJuridica : Pessoa
-    {
-        public string CNPJ { get; set; }
-    }
-
-    #endregion
 }
