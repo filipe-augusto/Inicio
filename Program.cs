@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using System;
+
 using Payments;
+using System;
 
 namespace Payments
 {
@@ -8,49 +9,42 @@ namespace Payments
     {
         static void Main(string[] args)
         {
-            Console.Clear();
+              Console.Clear();
+            //List<int> a = new List<int>();
+            Console.WriteLine("----------k13123------");
             #region CLASSES ABSTRATAS
             /*   
-             inciandoAparelho a1 = new inciandoAparelho();
-             inciandoAparelho.iniciando(); 
-             */
+                         inciandoAparelho a1 = new inciandoAparelho();
+                         inciandoAparelho.iniciando(); 
+                         */
             #endregion
             #region UPCAST E DOWNCAST
-            //  
-            //  DowncastUpcast downcast_Upcast = new DowncastUpcast();
-            //  downcast_Upcast.iniciando();
+            //  //  DowncastUpcast downcast_Upcast = new DowncastUpcast();//  downcast_Upcast.iniciando();
             #endregion
             #region  Comprando objetos
             /*   DowncastUpcastComparandoObjetos a = new DowncastUpcastComparandoObjetos();
-              a.iniciando(); */
+                          a.iniciando(); */
             #endregion
-            //
-
-
-            //var customer = new Customer();
-            // customer.Name = "Teste";
-            /*   Console.WriteLine("--------abc--------");
-              Payment P = new Payment();
-              P.Nome = "Filipe. Augusto. Santos.";
-              P.Idade = 20;
-              //  Console.WriteLine( "NOME " + P.Nome+ " Idade: "+P.Idade);
-              Movel m = new Movel(1);
-              Cama c = new Cama(5);
-              c.Preco(); */
+            #region Event
+            //EventsInicial eventos = new EventsInicial();// eventos.iniciando();
+            #endregion
+            Console.ReadLine();
+            //var customer = new Customer();// customer.Name = "Teste";/*   Console.WriteLine("--------abc--------");
+            //  Payment P = new Payment();
+            // P.Nome = "Filipe. Augusto. Santos.";
+            //             P.Idade = 20;
+            //  Console.WriteLine( "NOME " + P.Nome+ " Idade: "+P.Idade);
+            //           Movel m = new Movel(1);
+            //Cama c = new Cama(5);
+            //c.Preco();
             #region abstrata e subscrita
             /*   var car = new Polo();
-              car.Ano = 2022;
-              car.Velocidade = 200.5m;
-              car.Nome = "polo preto 2012";
-              car.correr(); */
+                          car.Ano = 2022;
+                          car.Velocidade = 200.5m;
+                          car.Nome = "polo preto 2012";
+                          car.correr(); */
             #endregion
-            // System.Console.WriteLine();
-
-            //m.Preco();
-            Console.ReadLine();
-            // ----------------------
-            // var pagamento = new  PaymentCreditCard();
-            // pagamento
+            //  Console.WriteLine();//m.Preco();//Console.ReadLine();// ----------------------// var pagamento = new  PaymentCreditCard();// pagamento
         }
     }
     class Pagamento
@@ -176,7 +170,7 @@ namespace Payments
 
         public virtual void correr()
         {
-            System.Console.WriteLine($"velocidade é {this.Velocidade}km/h");
+            Console.WriteLine($"velocidade é {this.Velocidade}km/h");
         }
     }
 
@@ -186,7 +180,7 @@ namespace Payments
         //sobrescrita
         public override void correr()
         {
-            System.Console.WriteLine($"velocidade do polo é {this.Velocidade}km/h");
+            Console.WriteLine($"velocidade do polo é {this.Velocidade}km/h");
         }
     }
     #endregion

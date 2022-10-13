@@ -31,7 +31,7 @@ namespace Payments
 
         public void Teste()
         {
-            System.Console.WriteLine("teste");
+            Console.WriteLine("teste");
         }
     }
     public class Car : ICar
@@ -44,12 +44,12 @@ namespace Payments
         public void Run()
         {
             // Teste();
-            System.Console.WriteLine("Run...");
+            Console.WriteLine("Run...");
         }
 
         public void Stop()
         {
-            System.Console.WriteLine("Stop...");
+            Console.WriteLine("Stop...");
         }
     }
 

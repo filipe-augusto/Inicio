@@ -22,10 +22,10 @@ namespace Payments
             var pessoaA = new Pessoa2("Filipe", 22);
             var pessoaB = new Pessoa2("Filipe", 22);
 
-            System.Console.WriteLine(pessoaA == pessoaB);
-            System.Console.WriteLine("Comparando os ids: " + (pessoaA.Id == pessoaB.Id));
+            Console.WriteLine(pessoaA == pessoaB);
+            Console.WriteLine("Comparando os ids: " + (pessoaA.Id == pessoaB.Id));
 
-            System.Console.WriteLine("Usando IEquatable: " + (pessoaA.Equals(pessoaB)));
+            Console.WriteLine("Usando IEquatable: " + (pessoaA.Equals(pessoaB)));
             #endregion
 
         }

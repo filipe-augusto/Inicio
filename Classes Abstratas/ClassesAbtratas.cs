@@ -22,11 +22,11 @@ namespace Payments
 
         public virtual void Ligar()
         {
-            System.Console.WriteLine("Ligar...");
+            Console.WriteLine("Ligar...");
         }
         public void Desligar()
         {
-            System.Console.WriteLine("Desligando");
+            Console.WriteLine("Desligando");
         }
     }
 
@@ -36,7 +36,7 @@ namespace Payments
 
         public override void Ligar()
         {
-            System.Console.WriteLine($"Ligando celular {base.Nome} Id: {this.Id}");
+            Console.WriteLine($"Ligando celular {base.Nome} Id: {this.Id}");
         }
     }
 
